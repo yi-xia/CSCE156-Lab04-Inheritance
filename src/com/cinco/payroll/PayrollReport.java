@@ -30,11 +30,11 @@ public class PayrollReport {
 						annualSalary = Double.parseDouble(tokens[4]);
 					}
 					
-					if(tokens[0].equals("E")) {
+					if(tokens[0].equals("E")) { // Salary Employee
 						e = new Employee(); //TODO: modify this
-					} else if(tokens[0].equals("S")) {
+					} else if(tokens[0].equals("S")) { // Staff
 						e = new Employee(); //TODO: modify this
-					} else if(tokens[0].equals("T")) {
+					} else if(tokens[0].equals("T")) { // Temporary
 						e = new Employee(); //TODO: modify this
 					}
 					
